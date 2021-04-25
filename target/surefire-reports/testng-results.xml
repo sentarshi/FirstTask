@@ -2,20 +2,36 @@
 <testng-results ignored="0" total="20" passed="12" failed="8" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-04-25T13:47:51 MSK" name="Surefire suite" finished-at="2021-04-25T13:47:51 MSK" duration-ms="69">
+  <suite started-at="2021-04-25T14:12:28 MSK" name="Surefire suite" finished-at="2021-04-25T14:12:28 MSK" duration-ms="69">
     <groups>
     </groups>
-    <test started-at="2021-04-25T13:47:51 MSK" name="Surefire test" finished-at="2021-04-25T13:47:51 MSK" duration-ms="69">
+    <test started-at="2021-04-25T14:12:28 MSK" name="Surefire test" finished-at="2021-04-25T14:12:28 MSK" duration-ms="69">
       <class name="PenTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="setUp" finished-at="2021-04-25T13:47:51 MSK" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="setUp" finished-at="2021-04-25T14:12:28 MSK" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testDosomethingElsePrint()[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testDosomethingElsePrint" description="This function seeems just write current color value" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="PASS">
+        <test-method signature="testDosomethingElsePrint()[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testDosomethingElsePrint" description="This function seeems just write current color value" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDosomethingElsePrint -->
-        <test-method signature="testIsWork(int,java.lang.Double)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testIsWork" description="HappyPath test of a function is pen working or not" data-provider="2Params(inkContaienr,sizeLetter)" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="FAIL">
+        <test-method signature="testIsWork(int,java.lang.Double)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testIsWork" description="HappyPath test of a function is pen working or not" data-provider="2Params(inkContaienr,sizeLetter)" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsWork -->
+        <test-method signature="testIsWork(int,java.lang.Double)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testIsWork" description="HappyPath test of a function is pen working or not" data-provider="2Params(inkContaienr,sizeLetter)" finished-at="2021-04-25T14:12:28 MSK" duration-ms="6" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -79,23 +95,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsWork -->
-        <test-method signature="testIsWork(int,java.lang.Double)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testIsWork" description="HappyPath test of a function is pen working or not" data-provider="2Params(inkContaienr,sizeLetter)" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[10000]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsWork -->
-        <test-method signature="testIsWork(int,java.lang.Double)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testIsWork" description="HappyPath test of a function is pen working or not" data-provider="2Params(inkContaienr,sizeLetter)" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="FAIL">
+        <test-method signature="testIsWork(int,java.lang.Double)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testIsWork" description="HappyPath test of a function is pen working or not" data-provider="2Params(inkContaienr,sizeLetter)" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -159,7 +159,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsWork -->
-        <test-method signature="testIsWork(int,java.lang.Double)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testIsWork" description="HappyPath test of a function is pen working or not" data-provider="2Params(inkContaienr,sizeLetter)" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="PASS">
+        <test-method signature="testIsWork(int,java.lang.Double)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testIsWork" description="HappyPath test of a function is pen working or not" data-provider="2Params(inkContaienr,sizeLetter)" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -175,101 +175,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testIsWork -->
-        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Work]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[1000]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Work]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWrite -->
-        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Work]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[3.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[15]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Work]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWrite -->
-        <test-method signature="testIsWork(int,java.lang.Double)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testIsWork" description="HappyPath test of a function is pen working or not" data-provider="2Params(inkContaienr,sizeLetter)" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[0.5]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testIsWork -->
-        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Work]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1.0]]>
-              </value>
-            </param>
-            <param index="2">
-              <value>
-                <![CDATA[10000]]>
-              </value>
-            </param>
-            <param index="3">
-              <value>
-                <![CDATA[Work]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testWrite -->
-        <test-method signature="testgetColor()[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testgetColor" description="HappyPathTest retreiving Pen Color" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="FAIL">
+        <test-method signature="testgetColor()[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testgetColor" description="HappyPathTest retreiving Pen Color" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Blue] but found [BLUE]]]>
@@ -322,7 +228,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testgetColor -->
-        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="PASS">
+        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -348,7 +254,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWrite -->
-        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="FAIL">
+        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -423,7 +329,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWrite -->
-        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="PASS">
+        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -449,7 +355,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWrite -->
-        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="FAIL">
+        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -524,7 +430,33 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWrite -->
-        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="PASS">
+        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[1000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite -->
+        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -550,7 +482,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWrite -->
-        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="FAIL">
+        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -622,7 +554,49 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWrite -->
-        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="PASS">
+        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[3.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[15]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite -->
+        <test-method signature="testIsWork(int,java.lang.Double)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testIsWork" description="HappyPath test of a function is pen working or not" data-provider="2Params(inkContaienr,sizeLetter)" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[0.5]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testIsWork -->
+        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -648,7 +622,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWrite -->
-        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="PASS">
+        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -674,7 +648,33 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWrite -->
-        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="FAIL">
+        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1.0]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[10000]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Work]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testWrite -->
+        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -746,7 +746,7 @@ at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testWrite -->
-        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T13:47:51 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T13:47:51 MSK" duration-ms="0" status="FAIL">
+        <test-method signature="testWrite(java.lang.String,java.lang.Double,int,java.lang.String)[pri:0, instance:PenTest@64d7f7e0]" started-at="2021-04-25T14:12:28 MSK" name="testWrite" description="Verifying how Pen will work in different legal situations" data-provider="3Params,inkContaienr,sizeLetter,CustomWord" finished-at="2021-04-25T14:12:28 MSK" duration-ms="0" status="FAIL">
           <params>
             <param index="0">
               <value>

@@ -1,5 +1,5 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="UnitTests" verbose="2" annotations="JDK">
+<suite name="PositiveUnitTests" verbose="2" annotations="JDK">
     <test name = "First Methods test">
         <classes>
             <class name = "PenTest"/>
